@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gamejam", "Gamejam.vcxproj", "{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}.Debug|x64.ActiveCfg = Debug|x64
+		{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}.Debug|x64.Build.0 = Debug|x64
+		{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}.Debug|x86.Build.0 = Debug|Win32
+		{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}.Release|x64.ActiveCfg = Release|x64
+		{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}.Release|x64.Build.0 = Release|x64
+		{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}.Release|x86.ActiveCfg = Release|Win32
+		{A1F6DBC5-3AD3-4DBC-AD85-3D0E3AB3CEB1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52353C80-24E7-4D35-A45D-4A2E4B82C3E1}
+	EndGlobalSection
+EndGlobal

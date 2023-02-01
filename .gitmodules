@@ -1,0 +1,7 @@
+[submodule "Godot"]
+	path = Godot
+	url = https://github.com/AaronFrans/Unwrap2023Project.git
+[submodule "includes/godot-cpp"]
+	path = includes/godot-cpp
+	url = https://github.com/godotengine/godot-cpp.git
+	branch = 3.5

@@ -1,0 +1,5 @@
+#VS Ignore
+
+/bin
+x64
+.vs/
