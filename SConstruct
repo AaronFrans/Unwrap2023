@@ -22,6 +22,13 @@ cpp_library = 'libgodot-cpp'
 # only support 64 at this time..
 bits = 64
 
+#check if bin folder in project, otherwise create it
+if not os.path.exists("Godot/bin/"):
+      
+    # if the demo_folder directory is not present 
+    # then create it.
+    os.makedirs("Godot/bin/")
+
 # Updates the environment with the option variables.
 opts.Update(env)
 
@@ -73,6 +80,8 @@ if env['target'] in ('debug', 'd'):
     cpp_library += '.debug'
 else:
     cpp_library += '.release'
+    
+    
 
 cpp_library += '.' + str(bits)
 
